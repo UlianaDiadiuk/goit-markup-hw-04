@@ -11,8 +11,12 @@
 /*------------------------values part-------------------*/
 
 .values-img {
-    max-width: 270px;
-    max-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
     background-color: var(--grey-background);
 }
 
@@ -31,7 +35,8 @@
     color: var(--icon-color);
 }
 
-.link-media:hover {
+.link-media:hover, 
+.link-media:focus {
     color: var(--text-white-color);
     background-color: var(--logo-blue-color);
 }
@@ -79,7 +84,8 @@
     border-radius: 4px;
 }
 
-.companies-item:hover {
+.companies-item:hover,
+.client-link:focus {
     border: 1px solid var(--logo-blue-color);
 }
 
@@ -90,7 +96,8 @@
     color: var(--icon-color);
 }
 
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
     color: var(--logo-blue-color);
 }
 

@@ -230,13 +230,6 @@ align-items: center;
   color: var(--text-grey-color);
 }
 
-.values-img {
-  padding: 25px 100px;
-  max-width: 270px;
-  min-height: 120px;
-  background-color: var(--grey-background);
-}
-
 
 .values h3 {
   margin-top: 0;
